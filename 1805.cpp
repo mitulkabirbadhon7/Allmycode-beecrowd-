@@ -1,18 +1,14 @@
 #include<stdio.h>
-
 int main()
 {
-    int i,n;
-    printf("inter the number  n : ");
+   long long int a,b,n,s;
 
-    scanf("%d",&n);
+    scanf("%lld %lld",&a,&b);
 
-for(i=0;i<=n;i=i+2)
-    printf("%d\n",i);
-
-return 0;
+         n=(b-a)+1;
+         s=((float)n/2)*(2*a+(n-1));
+         printf("%lld\n",s);
 
 
+    return 0;
 }
-
-
